@@ -1,22 +1,39 @@
-name: API Test Workflow
+# name: API Test Workflow
 
-on: [push]
+# on: [push]
+
+# jobs:
+#   test_api:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#     - name: Checkout Repository
+#       uses: actions/checkout@v2
+
+#     - name: Set up Node.js
+#       uses: actions/setup-node@v2
+#       with:
+#         node-version: '20'
+
+#     - name: Install Newman
+#       run: npm install -g newman
+
+#     - name: Run Newman with Postman Collection
+#       run: newman run collection.json --env-var oauth_token=${{secrets.TEST_TOKEN}}
+name: Automated API tests using Postman CLI
+
+on: push
 
 jobs:
-  test_api:
+  automated-api-tests:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
-
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '20'
-
-    - name: Install Newman
-      run: npm install -g newman
-
-    - name: Run Newman with Postman Collection
-      run: newman run collection.json --env-var oauth_token=${{secrets.TEST_TOKEN}}
+      - uses: actions/checkout@v3
+      - name: Install Postman CLI
+        run: |
+          curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
+      - name: Login to Postman CLI
+        run: postman login --with-api-key ${{ secrets.POSTMAN_API_KEY }}
+      - name: Run API tests
+        run: |
+          postman collection run "${{ github.workspace }}/postman/collections/Test Copy.json" -e "33044957-9c682d35-f3dc-4f8d-8ef7-609667440f11" --integration-id "159046-${{ github.run_id }}"
