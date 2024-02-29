@@ -1,0 +1,234 @@
+{
+    "info": {
+        "_postman_id": "6a61d37d-1028-4532-99de-7c1bda333fd2",
+        "name": "Test",
+        "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+        "_exporter_id": "33044957"
+    },
+    "item": [
+        {
+            "name": "Lookup",
+            "item": [
+                {
+                    "name": "Look up a clinical finding concept",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "https://nzhts.digital.health.nz/fhir/CodeSystem/$lookup?system=http://snomed.info/sct&code=404684003",
+                            "protocol": "https",
+                            "host": [
+                                "nzhts",
+                                "digital",
+                                "health",
+                                "nz"
+                            ],
+                            "path": [
+                                "fhir",
+                                "CodeSystem",
+                                "$lookup"
+                            ],
+                            "query": [
+                                {
+                                    "key": "system",
+                                    "value": "http://snomed.info/sct"
+                                },
+                                {
+                                    "key": "code",
+                                    "value": "404684003"
+                                }
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Look up a procedure concept",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "https://nzhts.digital.health.nz/fhir/CodeSystem/$lookup?system=http://snomed.info/sct&code=427623005",
+                            "protocol": "https",
+                            "host": [
+                                "nzhts",
+                                "digital",
+                                "health",
+                                "nz"
+                            ],
+                            "path": [
+                                "fhir",
+                                "CodeSystem",
+                                "$lookup"
+                            ],
+                            "query": [
+                                {
+                                    "key": "system",
+                                    "value": "http://snomed.info/sct"
+                                },
+                                {
+                                    "key": "code",
+                                    "value": "427623005"
+                                }
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Medicinal product concept to display certain properties",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "https://nzhts.digital.health.nz/fhir/CodeSystem/$lookup?system=http://snomed.info/sct&code=322236009&property=normalForm&property=sufficientlyDefined",
+                            "protocol": "https",
+                            "host": [
+                                "nzhts",
+                                "digital",
+                                "health",
+                                "nz"
+                            ],
+                            "path": [
+                                "fhir",
+                                "CodeSystem",
+                                "$lookup"
+                            ],
+                            "query": [
+                                {
+                                    "key": "system",
+                                    "value": "http://snomed.info/sct"
+                                },
+                                {
+                                    "key": "code",
+                                    "value": "322236009"
+                                },
+                                {
+                                    "key": "property",
+                                    "value": "normalForm"
+                                },
+                                {
+                                    "key": "property",
+                                    "value": "sufficientlyDefined"
+                                }
+                            ]
+                        }
+                    },
+                    "response": []
+                }
+            ]
+        },
+        {
+            "name": "Get country codes",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://nzhts.digital.health.nz/fhir/ValueSet/$expand?url=http://hl7.org/fhir/ValueSet/iso3166-1-2",
+                    "protocol": "https",
+                    "host": [
+                        "nzhts",
+                        "digital",
+                        "health",
+                        "nz"
+                    ],
+                    "path": [
+                        "fhir",
+                        "ValueSet",
+                        "$expand"
+                    ],
+                    "query": [
+                        {
+                            "key": "url",
+                            "value": "http://hl7.org/fhir/ValueSet/iso3166-1-2"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "List the emergency department procedure reference set",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://nzhts.digital.health.nz/fhir/ValueSet/$expand?url=http://snomed.info/sct/21000210109?fhir_vs=refset/321000210102",
+                    "protocol": "https",
+                    "host": [
+                        "nzhts",
+                        "digital",
+                        "health",
+                        "nz"
+                    ],
+                    "path": [
+                        "fhir",
+                        "ValueSet",
+                        "$expand"
+                    ],
+                    "query": [
+                        {
+                            "key": "url",
+                            "value": "http://snomed.info/sct/21000210109?fhir_vs=refset/321000210102"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        }
+    ],
+    "auth": {
+        "type": "oauth2",
+        "oauth2": {
+            "tokenName": "{{oauth_token}}",
+            "clientId": "{{client_id}}",
+            "clientSecret": "{{client_secret}}",
+            "refreshRequestParams": [],
+            "tokenRequestParams": [],
+            "authRequestParams": [],
+            "challengeAlgorithm": "S256",
+            "grant_type": "client_credentials",
+            "authUrl": "https://authenticate.nzhts.digital.health.nz/auth/realms/nzhts/protocol/openid-connect/auth",
+            "addTokenTo": "header",
+            "client_authentication": "header",
+            "accessTokenUrl": "https://authenticate.nzhts.digital.health.nz/auth/realms/nzhts/protocol/openid-connect/token"
+        }
+    },
+    "event": [
+        {
+            "listen": "prerequest",
+            "script": {
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ]
+            }
+        },
+        {
+            "listen": "test",
+            "script": {
+                "type": "text/javascript",
+                "exec": [
+                    "// Check if the response status is 200",
+                    "pm.test(\"Status code is 200\", function () {",
+                    "    pm.response.to.have.status(200);",
+                    "});",
+                    "",
+                    ""
+                ]
+            }
+        }
+    ],
+    "variable": [
+        {
+            "key": "client_id",
+            "value": "your_client_id_here",
+            "type": "string"
+        },
+        {
+            "key": "client_secret",
+            "value": "your_client_secret_hereyour_client_secret_here",
+            "type": "string"
+        }
+    ]
+}

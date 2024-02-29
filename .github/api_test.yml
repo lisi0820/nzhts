@@ -1,0 +1,22 @@
+name: API Test Workflow
+
+on: [push]
+
+jobs:
+  test_api:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Install Newman
+      run: npm install -g newman
+
+    - name: Run Newman with Postman Collection
+      run: newman run collection.json --env-var client_id=${{ secrets.CLIENT_ID }} --env-var client_secret=${{ secrets.CLIENT_SECRET }} --env-var oauth_token=${{secrets.TEST_TOKEN}}
