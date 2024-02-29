@@ -177,23 +177,6 @@
             "response": []
         }
     ],
-    "auth": {
-        "type": "oauth2",
-        "oauth2": {
-            "tokenName": "{{oauth_token}}",
-            "clientId": "{{client_id}}",
-            "clientSecret": "{{client_secret}}",
-            "refreshRequestParams": [],
-            "tokenRequestParams": [],
-            "authRequestParams": [],
-            "challengeAlgorithm": "S256",
-            "grant_type": "client_credentials",
-            "authUrl": "https://authenticate.nzhts.digital.health.nz/auth/realms/nzhts/protocol/openid-connect/auth",
-            "addTokenTo": "header",
-            "client_authentication": "header",
-            "accessTokenUrl": "https://authenticate.nzhts.digital.health.nz/auth/realms/nzhts/protocol/openid-connect/token"
-        }
-    },
     "event": [
         {
             "listen": "prerequest",
@@ -217,18 +200,6 @@
                     ""
                 ]
             }
-        }
-    ],
-    "variable": [
-        {
-            "key": "client_id",
-            "value": "your_client_id_here",
-            "type": "string"
-        },
-        {
-            "key": "client_secret",
-            "value": "your_client_secret_hereyour_client_secret_here",
-            "type": "string"
         }
     ]
 }
