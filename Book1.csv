@@ -80,7 +80,7 @@ Mental Health,Mental health problem,Mental health problem (finding),413307004
 Mental Health,Self-harm,Self-injurious behavior (finding),248062006
 Mental Health,Situational crisis,Crisis (finding),32937002
 Mental Health,Suicidal thoughts,Suicidal thoughts (finding),6471006
-Miscellaneous,Abnormal blood test,Abnormal blood test (finding),1.51271E+14
+Miscellaneous,Abnormal blood test,Abnormal blood test (finding),1.51E+14
 Miscellaneous,Abnormal vital signs,Abnormal vital signs (finding),41236000
 Miscellaneous,Acute intoxication ,Acute intoxication (disorder),1149334009
 Miscellaneous,Administration of medication,Administration of drug or medicament (procedure),18629005
@@ -116,7 +116,6 @@ O&G,Sexual assault,Sexual assault (event),248110007
 O&G,Vaginal bleeding - not pregnant,Bleeding from vagina (finding),289530006
 Trauma/Injury,Injury of nose,Injury of nose (disorder),19491003
 Resp,Cough,Cough (finding),49727002
-Resp,Coughing up blood,Hemoptysis (disorder),66857006
 Resp,Cyanosis,Cyanosis (finding),3415004
 Resp,Episodes of not breathing (apnoea),Apnea (finding),1023001
 Resp,Foreign body in respiratory tract (inhaled),Foreign body in respiratory tract (disorder),262599003
