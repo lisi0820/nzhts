@@ -1,157 +1,159 @@
-﻿ED Chief Presenting Complaint Reference Set 1 October 2021 Release,,,
-Total member,155,,
-,,,
-NZED classification,NZED term,SNOMED Concept,Concept ID
-CNS,Altered mental status,Altered mental status (finding),419284004
-CNS,Altered sensation,Paresthesia (finding),91019004
-CNS,Ataxia,Ataxia (finding),20262006
-CNS,Dizziness/vertigo,Dizziness (finding),404640003
-CNS,Fall(s) - no significant injury,Falls (finding),161898004
-CNS,Headache,Headache (finding),25064002
-CNS,Memory loss,Amnesia (finding),48167000
-CNS,Seizure,Seizure (finding),91175000
-CNS,Speech problem,Speech problem (finding),267095009
-CNS,Tremor,Tremor (finding),26079004
-CNS,Weakness of face muscles,Weakness of face muscles (finding),95666008
-CNS,Weakness of limb,Muscle weakness of limb (finding),713514005
-CVS,Cardiac arrest,Cardiac arrest (disorder),410429000
-CVS,Chest pain,Chest pain (finding),29857009
-CVS,Collapse/syncope,Syncope and collapse (disorder),309585006
-CVS,Palpitations,Palpitations (finding),80313002
-CVS,Shock from internal defibrillator,Internal electrode cardioversion (procedure),180327006
-CVS,Swollen leg (single),Edema of lower leg (finding),449707004
-CVS,Swollen legs (both),Edema (finding),267038008
-CVS,Vascular disorder of limb,Arteriosclerosis of artery of extremity (disorder),443971004
-Env,Chemical exposure,Injury due to chemical exposure (disorder),371704001
-Env,Drowning,Drowning and non-fatal immersion (disorder),212962007
-Env,Electrical injury,Injury due to electrical exposure (disorder),371708003
-Env,Frostbite,Frostbite (disorder),370977006
-Env,Hypothermia,Hypothermia (finding),386689009
-Env,Poisoning caused by gaseous substance,Poisoning caused by gaseous substance (disorder),1156755000
-Eye,Discharge from eye,Discharge from eye (finding),246679005
-Eye,Foreign body in cornea,Corneal foreign body (disorder),37450000
-Eye,Pain in eye,Pain in eye (finding),41652007
-Eye,Photophobia,Photophobia (finding),409668002
-Eye,Red eye,Red eye (finding),703630003
-Eye,Visual disturbance,Abnormal vision (finding),7973008
-GI,Abdominal distension,Swollen abdomen (finding),60728008
-GI,Abdominal pain,Abdominal pain (finding),21522001
-GI,Altered bowel habit,Altered bowel function (finding),88111009
-GI,Feeding problem,Feeding problem (finding),78164000
-GI,Foreign body in gastrointestinal tract (swallowed),Swallowed foreign body (disorder),14448006
-GI,Foreign body in rectum,Foreign body in rectum (disorder),70176004
-GI,Foreign body in throat,Foreign body in pharynx (disorder),25479004
-GI,Hiccoughs,Hiccoughs (finding),65958008
-GI,Jaundice,Jaundice (finding),18165001
-GI,Loss of appetite,Loss of appetite (finding),79890006
-GI,Mouth problem (not dental),Oral cavity problem (finding),300255008
-GI,Nausea/vomiting/diarrhoea,"Nausea, vomiting and diarrhea (disorder)",2919008
-GI,Pain in anus/rectum,Anorectal pain (finding),197232005
-GI,Pain in groin,Inguinal pain (finding),102570003
-GI,Rectal bleed,Rectal hemorrhage (disorder),12063002
-GI,Stoma problem,Stoma finding (finding),225577002
-GI,Swallowing problem,Swallowing problem (finding),399122003
-GI,Vomiting blood,Hematemesis (disorder),8765009
-GU,Blood in urine,Blood in urine (finding),34436003
-GU,Complication of urinary catheter,Complication of urinary catheter (disorder),427793007
-GU,Excessive urine output,Polyuria (finding),28442001
-GU,Foreign body in genitourinary tract,Foreign body in genitourinary tract (disorder),68017002
-GU,Male genital problem,Male genitalia finding (finding),249230006
-GU,Reduced urine output,Oliguria (finding),83128009
-GU,Urethral discharge,Urethral discharge (finding),9957009
-GU,Urinary retention,Retention of urine (disorder),267064002
-GU,UTI symptoms,Micturition finding (finding),252041008
-Head/Neck,Bleeding from nose,Bleeding from nose (finding),249366005
-Head/Neck,Discharge from ear,Ear discharge (finding),300132001
-Head/Neck,Earache symptoms,Earache symptom (finding),162356005
-Head/Neck,Foreign body in ear,Foreign body in ear (disorder),75441006
-Head/Neck,Foreign body in nose,Foreign body in nose (disorder),74699008
-Head/Neck,Hearing loss/tinnitus,Hearing finding (finding),118230007
-Head/Neck,Neck swelling,Neck swelling (finding),301777002
-Head/Neck,Pain in face,Pain in face (finding),95668009
-Head/Neck,Swelling of face ,Facial swelling (finding),278528006
-Head/Neck,Swelling of tongue,Tongue swelling (finding),421262002
-Head/Neck,Toothache,Toothache (finding),27355003
-Mental Health,Abnormal behaviour,Abnormal behavior (finding),25786006
-Mental Health,Aggressive behaviour,Aggressive behavior (finding),61372001
-Mental Health,Anxiety,Anxiety (finding),48694002
-Mental Health,Insomnia,Insomnia (disorder),193462001
-Mental Health,Mental health problem,Mental health problem (finding),413307004
-Mental Health,Self-harm,Self-injurious behavior (finding),248062006
-Mental Health,Situational crisis,Crisis (finding),32937002
-Mental Health,Suicidal thoughts,Suicidal thoughts (finding),6471006
-Miscellaneous,Abnormal blood test,Abnormal blood test (finding),1.51E+14
-Miscellaneous,Abnormal vital signs,Abnormal vital signs (finding),41236000
-Miscellaneous,Acute intoxication ,Acute intoxication (disorder),1149334009
-Miscellaneous,Administration of medication,Administration of drug or medicament (procedure),18629005
-Miscellaneous,Alcohol intoxication,Alcohol intoxication (disorder),25702006
-Miscellaneous,Certificate or paperwork requested,Administrative reason for encounter (finding),185351004
-Miscellaneous,Complication of device (not catheter),Mechanical complication of device (disorder),111746009
-Miscellaneous,Constantly crying infant,Constantly crying infant (finding),766877008
-Miscellaneous,Family difficulty with crying infant ,Family difficulty with crying infant (finding),766878003
-Miscellaneous,Exposure to blood/body fluid,Exposure to blood and/or body fluid (event),417981005
-Miscellaneous,Exposure to communicable disease,Exposure to communicable disease (event),444107005
-Miscellaneous,Fever symptoms,Fever (finding),386661006
-Miscellaneous,Follow-up visit,Follow-up visit (procedure),185389009
-Miscellaneous,General weakness/fatigue/unwell,Asthenia (finding),13791008
-Miscellaneous,Hyperglycaemia,Hyperglycemia (disorder),80394007
-Miscellaneous,Hypoglycaemia,Hypoglycemia (disorder),302866003
-Miscellaneous,Postoperative complication,Postoperative complication (disorder),385486001
-Miscellaneous,Radiology requested,Radiographic imaging procedure requested (situation),168495003
-Miscellaneous,Script request,Medication requested (situation),182888003
-MSK,Back pain (no recent injury),Backache (finding),161891005
-MSK,Difficulty weight bearing,Difficulty weight bearing (finding),285680001
-MSK,Increased muscle tone,Increased muscle tone (finding),56731001
-MSK,Neck pain (no recent injury),Neck pain (finding),81680005
-MSK,Pain in lower limb (no recent injury),Pain in lower limb (finding),10601006
-MSK,Pain in upper limb (no recent injury),Pain in upper limb (finding),102556003
-MSK,Plaster cast problem,Attention to plaster cast (procedure),180300007
-MSK,Swelling of joint (no recent injury),Joint swelling (finding),271771009
-O&G,Breast problem,Breast problem (finding),290085007
-O&G,Female genital problem,Female genital tract problem (finding),289906003
-O&G,Labour,Labor established (finding),20236002
-O&G,Postpartum complication,Complication of the puerperium (disorder),80113008
-O&G,Disorder of pregnancy,Disorder of pregnancy (disorder),173300003
-O&G,Sexual assault,Sexual assault (event),248110007
-O&G,Vaginal bleeding - not pregnant,Bleeding from vagina (finding),289530006
-Trauma/Injury,Injury of nose,Injury of nose (disorder),19491003
-Resp,Cough,Cough (finding),49727002
-Resp,Cyanosis,Cyanosis (finding),3415004
-Resp,Episodes of not breathing (apnoea),Apnea (finding),1023001
-Resp,Foreign body in respiratory tract (inhaled),Foreign body in respiratory tract (disorder),262599003
-Resp,Nasal congestion,Nasal symptom (finding),249307003
-Resp,Noisy breathing,Noisy respiration (finding),248573009
-Resp,Respiratory arrest,Respiratory arrest (disorder),87317003
-Resp,Shortness of breath,Dyspnea (finding),267036007
-Resp,Sore throat,Pain in throat (finding),162397003
-Skin,Bite,Bite - wound (disorder),283682007
-Skin,Burn,Burn (disorder),125666000
-Skin,Change of dressing,Change of dressing (procedure),18949003
-Skin,Foreign body in skin,Foreign body in skin (disorder),93458008
-Skin,Itching,Itching (finding),418290006
-Skin,Localised lump/redness/swelling of skin,Localized superficial swelling of skin (finding),428786006
-Skin,Open wound (abrasion/laceration/puncture),Open wound (disorder),125643001
-Skin,Rash,Eruption of skin (disorder),271807003
-Skin,Removal of skin sutures or staples,Removal of skin sutures/clips (procedure),184043001
-Skin,Spontaneous bruising,Spontaneous bruising (disorder),161887000
-Skin,Wound complication,Open wound with complication (disorder),48422000
-Tox,Ingestion of potentially harmful substance,Accidental ingestion of potentially harmful entity (event),418757007
-Tox,Overdose,Overdose (disorder),1149222004
-Tox,Sting,Sting of skin (disorder),299972003
-Trauma/Injury,Cardiac arrest due to trauma,Cardiac arrest due to trauma (disorder),422970001
-Trauma/Injury,Injury of abdomen,Injury of abdomen (disorder),128069005
-Trauma/Injury,Injury of buttock,Injury of buttock (disorder),42479003
-Trauma/Injury,Injury of chest,Chest injury (disorder),26252500032
-Trauma/Injury,Injury of ear,Injury of ear (disorder),2999009
-Trauma/Injury,Injury of eye,Injury of eye region (disorder),282752000
-Trauma/Injury,Injury of face,Injury of face (disorder),125593007
-Trauma/Injury,Injury of genitalia,Genital injury (disorder),282772005
-Trauma/Injury,Injury of head,Injury of head (disorder),82271004
-Trauma/Injury,Injury of hip,Injury of hip region (disorder),125600009
-Trauma/Injury,Injury of lower limb,Injury of lower extremity (disorder),127279002
-Trauma/Injury,Injury of neck,Injury of neck (disorder),90460009
-Trauma/Injury,Injury of nose,Injury of nose (disorder),19491003
-Trauma/Injury,Injury of perineum,Injury of perineum (disorder),6923002
-Trauma/Injury,Injury of upper limb,Injury of upper extremity (disorder),127278005
-Trauma/Injury,Multiple injuries - major,Multiple injuries (disorder),262519004
-Trauma/Injury,Multiple injuries - minor,Superficial injuries involving multiple body regions (disorder),211468002
+﻿ED Chief Presenting Complaint Reference Set 1 October 2021 Release,,,,,
+Total member,155,,,,
+,,,,,
+NZED classification,NZED term,SNOMED Concept,Concept ID,,
+CNS,Altered mental status,Altered mental status (finding),419284004,,
+CNS,Altered sensation,Paresthesia (finding),91019004,,
+CNS,Ataxia,Ataxia (finding),20262006,,
+CNS,Dizziness/vertigo,Dizziness (finding),404640003,,
+CNS,Fall(s) - no significant injury,Falls (finding),161898004,,
+CNS,Headache,Headache (finding),25064002,,
+CNS,Memory loss,Amnesia (finding),48167000,,
+CNS,Seizure,Seizure (finding),91175000,,
+CNS,Speech problem,Speech problem (finding),267095009,,
+CNS,Tremor,Tremor (finding),26079004,,
+CNS,Weakness of face muscles,Weakness of face muscles (finding),95666008,,
+CNS,Weakness of limb,Muscle weakness of limb (finding),713514005,,
+CVS,Cardiac arrest,Cardiac arrest (disorder),410429000,,
+CVS,Chest pain,Chest pain (finding),29857009,,
+CVS,Collapse/syncope,Syncope and collapse (disorder),309585006,,
+CVS,Palpitations,Palpitations (finding),80313002,,
+CVS,Shock from internal defibrillator,Internal electrode cardioversion (procedure),180327006,,
+CVS,Swollen leg (single),Edema of lower leg (finding),449707004,,
+CVS,Swollen legs (both),Edema (finding),267038008,,
+CVS,Vascular disorder of limb,Arteriosclerosis of artery of extremity (disorder),443971004,,
+Env,Chemical exposure,Injury due to chemical exposure (disorder),371704001,,
+Env,Drowning,Drowning and non-fatal immersion (disorder),212962007,,
+Env,Electrical injury,Injury due to electrical exposure (disorder),371708003,,
+Env,Frostbite,Frostbite (disorder),370977006,,
+Env,Hypothermia,Hypothermia (finding),386689009,,
+Env,Poisoning caused by gaseous substance,Poisoning caused by gaseous substance (disorder),1156755000,,
+Eye,Discharge from eye,Discharge from eye (finding),246679005,,
+Eye,Foreign body in cornea,Corneal foreign body (disorder),37450000,,
+Eye,Pain in eye,Pain in eye (finding),41652007,,
+Eye,Photophobia,Photophobia (finding),409668002,,
+Eye,Red eye,Red eye (finding),703630003,,
+Eye,Visual disturbance,Abnormal vision (finding),7973008,,
+GI,Abdominal distension,Swollen abdomen (finding),60728008,,
+GI,Abdominal pain,Abdominal pain (finding),21522001,,
+GI,Altered bowel habit,Altered bowel function (finding),88111009,,
+GI,Feeding problem,Feeding problem (finding),78164000,,
+GI,Foreign body in gastrointestinal tract (swallowed),Swallowed foreign body (disorder),14448006,,
+GI,Foreign body in rectum,Foreign body in rectum (disorder),70176004,,
+GI,Foreign body in throat,Foreign body in pharynx (disorder),25479004,,
+GI,Hiccoughs,Hiccoughs (finding),65958008,,
+GI,Jaundice,Jaundice (finding),18165001,,
+GI,Loss of appetite,Loss of appetite (finding),79890006,,
+GI,Mouth problem (not dental),Oral cavity problem (finding),300255008,,
+GI,Nausea/vomiting/diarrhoea,"Nausea, vomiting and diarrhea (disorder)",2919008,,
+GI,Pain in anus/rectum,Anorectal pain (finding),197232005,,
+GI,Pain in groin,Inguinal pain (finding),102570003,,
+GI,Rectal bleed,Rectal hemorrhage (disorder),12063002,,
+GI,Stoma problem,Stoma finding (finding),225577002,,
+GI,Swallowing problem,Swallowing problem (finding),399122003,,
+GI,Vomiting blood,Hematemesis (disorder),8765009,,
+GU,Blood in urine,Blood in urine (finding),34436003,,
+GU,Complication of urinary catheter,Complication of urinary catheter (disorder),427793007,,
+GU,Excessive urine output,Polyuria (finding),28442001,,
+GU,Foreign body in genitourinary tract,Foreign body in genitourinary tract (disorder),68017002,,
+GU,Male genital problem,Male genitalia finding (finding),249230006,,
+GU,Reduced urine output,Oliguria (finding),83128009,,
+GU,Urethral discharge,Urethral discharge (finding),9957009,,
+GU,Urinary retention,Retention of urine (disorder),267064002,,
+GU,UTI symptoms,Micturition finding (finding),252041008,,
+Head/Neck,Bleeding from nose,Bleeding from nose (finding),249366005,,
+Head/Neck,Discharge from ear,Ear discharge (finding),300132001,,
+Head/Neck,Earache symptoms,Earache symptom (finding),162356005,,
+Head/Neck,Foreign body in ear,Foreign body in ear (disorder),75441006,,
+Head/Neck,Foreign body in nose,Foreign body in nose (disorder),74699008,,
+Head/Neck,Hearing loss/tinnitus,Hearing finding (finding),118230007,,
+Head/Neck,Neck swelling,Neck swelling (finding),301777002,,
+Head/Neck,Pain in face,Pain in face (finding),95668009,,
+Head/Neck,Swelling of face ,Facial swelling (finding),278528006,,
+Head/Neck,Swelling of tongue,Tongue swelling (finding),421262002,,
+Head/Neck,Toothache,Toothache (finding),27355003,,
+Mental Health,Abnormal behaviour,Abnormal behavior (finding),25786006,,
+Mental Health,Aggressive behaviour,Aggressive behavior (finding),61372001,,
+Mental Health,Anxiety,Anxiety (finding),48694002,,
+Mental Health,Insomnia,Insomnia (disorder),193462001,,
+Mental Health,Mental health problem,Mental health problem (finding),413307004,,
+Mental Health,Self-harm,Self-injurious behavior (finding),248062006,,
+Mental Health,Situational crisis,Crisis (finding),32937002,,
+Mental Health,Suicidal thoughts,Suicidal thoughts (finding),6471006,,
+Miscellaneous,Abnormal blood test,Abnormal blood test (finding),151271000119102,,
+Miscellaneous,Abnormal vital signs,Abnormal vital signs (finding),41236000,,
+Miscellaneous,Acute intoxication ,Acute intoxication (disorder),1149334009,,
+Miscellaneous,Administration of medication,Administration of drug or medicament (procedure),18629005,,
+Miscellaneous,Alcohol intoxication,Alcohol intoxication (disorder),25702006,,
+Miscellaneous,Certificate or paperwork requested,Administrative reason for encounter (finding),185351004,,
+Miscellaneous,Complication of device (not catheter),Mechanical complication of device (disorder),111746009,,
+Miscellaneous,Constantly crying infant,Constantly crying infant (finding),766877008,,
+Miscellaneous,Family difficulty with crying infant ,Family difficulty with crying infant (finding),766878003,,
+Miscellaneous,Exposure to blood/body fluid,Exposure to blood and/or body fluid (event),417981005,,
+Miscellaneous,Exposure to communicable disease,Exposure to communicable disease (event),444107005,,
+Miscellaneous,Fever symptoms,Fever (finding),386661006,,
+Miscellaneous,Follow-up visit,Follow-up visit (procedure),185389009,,
+Miscellaneous,General weakness/fatigue/unwell,Asthenia (finding),13791008,,
+Miscellaneous,Hyperglycaemia,Hyperglycemia (disorder),80394007,,
+Miscellaneous,Hypoglycaemia,Hypoglycemia (disorder),302866003,,
+Miscellaneous,Postoperative complication,Postoperative complication (disorder),385486001,,
+Miscellaneous,Radiology requested,Radiographic imaging procedure requested (situation),168495003,,
+Miscellaneous,Script request,Medication requested (situation),182888003,,
+MSK,Back pain (no recent injury),Backache (finding),161891005,,
+MSK,Difficulty weight bearing,Difficulty weight bearing (finding),285680001,,
+MSK,Increased muscle tone,Increased muscle tone (finding),56731001,,
+MSK,Neck pain (no recent injury),Neck pain (finding),81680005,,
+MSK,Pain in lower limb (no recent injury),Pain in lower limb (finding),10601006,,
+MSK,Pain in upper limb (no recent injury),Pain in upper limb (finding),102556003,,
+MSK,Plaster cast problem,Attention to plaster cast (procedure),180300007,,
+MSK,Swelling of joint (no recent injury),Joint swelling (finding),271771009,,
+O&G,Breast problem,Breast problem (finding),290085007,,
+O&G,Female genital problem,Female genital tract problem (finding),289906003,,
+O&G,Labour,Labor established (finding),20236002,,
+O&G,Postpartum complication,Complication of the puerperium (disorder),80113008,,
+O&G,Disorder of pregnancy,Disorder of pregnancy (disorder),173300003,,
+O&G,Sexual assault,Sexual assault (event),248110007,,
+O&G,Vaginal bleeding - not pregnant,Bleeding from vagina (finding),289530006,,
+O&G,Vaginal discharge,Vaginal discharge (finding),271939006,,
+Resp,Cough,Cough (finding),49727002,,
+Resp,Coughing up blood,Hemoptysis (disorder),66857006,,
+Resp,Cyanosis,Cyanosis (finding),3415004,,
+Resp,Episodes of not breathing (apnoea),Apnea (finding),1023001,,
+Resp,Foreign body in respiratory tract (inhaled),Foreign body in respiratory tract (disorder),262599003,,
+Resp,Nasal congestion,Nasal symptom (finding),249307003,,
+Resp,Noisy breathing,Noisy respiration (finding),248573009,,
+Resp,Respiratory arrest,Respiratory arrest (disorder),87317003,,
+Resp,Shortness of breath,Dyspnea (finding),267036007,,
+Resp,Sore throat,Pain in throat (finding),162397003,,
+Skin,Bite,Bite - wound (disorder),283682007,,
+Skin,Burn,Burn (disorder),125666000,,
+Skin,Change of dressing,Change of dressing (procedure),18949003,,
+Skin,Foreign body in skin,Foreign body in skin (disorder),93458008,,
+Skin,Itching,Itching (finding),418290006,,
+Skin,Localised lump/redness/swelling of skin,Localized superficial swelling of skin (finding),428786006,,
+Skin,Open wound (abrasion/laceration/puncture),Open wound (disorder),125643001,,
+Skin,Rash,Eruption of skin (disorder),271807003,,
+Skin,Removal of skin sutures or staples,Removal of skin sutures/clips (procedure),184043001,,
+Skin,Spontaneous bruising,Spontaneous bruising (disorder),161887000,,
+Skin,Wound complication,Open wound with complication (disorder),48422000,,
+Tox,Ingestion of potentially harmful substance,Accidental ingestion of potentially harmful entity (event),418757007,,
+Tox,Overdose,Overdose (disorder),1149222004,,
+Tox,Sting,Sting of skin (disorder),299972003,,
+Trauma/Injury,Cardiac arrest due to trauma,Cardiac arrest due to trauma (disorder),422970001,,
+Trauma/Injury,Injury of abdomen,Injury of abdomen (disorder),128069005,,
+Trauma/Injury,Injury of back,Traumatic and/or non-traumatic injury of back (disorder),712893003,,
+Trauma/Injury,Injury of buttock,Injury of buttock (disorder),42479003,,
+Trauma/Injury,Injury of chest,Chest injury (disorder),262525000,,
+Trauma/Injury,Injury of ear,Injury of ear (disorder),2999009,,
+Trauma/Injury,Injury of eye,Injury of eye region (disorder),282752000,,
+Trauma/Injury,Injury of face,Injury of face (disorder),125593007,,
+Trauma/Injury,Injury of genitalia,Genital injury (disorder),282772005,,
+Trauma/Injury,Injury of head,Injury of head (disorder),82271004,,
+Trauma/Injury,Injury of hip,Injury of hip region (disorder),125600009,,
+Trauma/Injury,Injury of lower limb,Injury of lower extremity (disorder),127279002,,
+Trauma/Injury,Injury of neck,Injury of neck (disorder),90460009,,
+Trauma/Injury,Injury of nose,Injury of nose (disorder),19491003,,
+Trauma/Injury,Injury of perineum,Injury of perineum (disorder),6923002,,
+Trauma/Injury,Injury of upper limb,Injury of upper extremity (disorder),127278005,,
+Trauma/Injury,Multiple injuries - major,Multiple injuries (disorder),262519004,,
+Trauma/Injury,Multiple injuries - minor,Superficial injuries involving multiple body regions (disorder),211468002,,
